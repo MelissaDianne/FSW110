@@ -1,0 +1,10 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+body {
+    display: grid;
+    grid-template-rows: 5% 150px 50px auto 5%;
+    height: 100vh;
+}
