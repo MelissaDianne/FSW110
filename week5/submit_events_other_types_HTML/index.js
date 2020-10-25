@@ -63,9 +63,16 @@ allergins.style.border = "solid white";
    document.myForm.fname.value=""
    document.myForm.lname.value=""
    document.myForm.age.value=""
-   document.myForm.gender.value=""
-   ocument.myForm.destination.value=""
-   }
+   document.myForm.gender.checked=false
+   
+   
+   for(var i = 0; i< document.getElementsByName("restriction").length; i++){
+    document.getElementsByName("restriction")[i].checked = false
+    
+}
+  document.myForm.reset();
+
+   }//end 
   
 
 
