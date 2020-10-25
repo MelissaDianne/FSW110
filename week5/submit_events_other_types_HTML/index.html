@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body id="box">
+    <form name = "myForm">
+            <div id="person">
+                <h2>Passenger Form</h2>
+                    <label for="fname">First name:</label>
+                    <input type="text" name="fname"><br>
+                    <label for="lname">Last name:</label>
+                    <input type="text"  name="lname"><br>
+                    <label for="age">Age:</label>
+                    <input type="number" name="age">
+            <br>
+                <div id="genderselect">
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label><br>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Prefer Not to Say</label>
+                </div>   
+
+                <div id="whereto">
+                    <h2>Travel Destination</h2>
+                    <select name="destination" id="destination">
+                        <option value="Japan">Japan</option>
+                        <option value="Thailand">Thailand</option>
+                        <option value="Bora Bora">Bora Bora</option>
+                        <option value="Tahiti">Tahiti</option>
+                    </select>
+                </div>  
+            
+        
+            <div id="allergins">
+                <h2>Special Accommodations</h2>
+                <p>Please select allergins if applicable;</p>
+                    <input type="checkbox" id="restriction" name="restriction" value="Nut">
+                    <label for="rest1"> Nut</label><br>
+                    <input type="checkbox" id="restriction" name="restriction" value="Lactose/Dairy">
+                    <label for="rest2"> Lactose/Dairy </label><br>
+                    <input type="checkbox" id="restriction" name="restriction" value="Gluten">
+                    <label for="rest3"> Gluten </label><br>
+                    <input type="checkbox" id="restriction" name="restriction" value="Soy">
+                    <label for="rest4"> Soy</label><br>
+                    <input type="checkbox" id="restriction" name="restriction" value="None">
+                    <label for="rest5"> None</label><br>
+                    <input type="button" value="submit" onclick="display();">  
+            </div>
+        </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
